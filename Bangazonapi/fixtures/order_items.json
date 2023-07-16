@@ -1,0 +1,12 @@
+[
+  {
+      "model": "Bangazonapi.order_items",
+      "pk": 1,
+      "fields": {
+          "order_id": 1,
+          "product_id": 1,
+          "quantity": 1
+
+      }
+  }
+]

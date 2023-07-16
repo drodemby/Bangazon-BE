@@ -1,0 +1,9 @@
+[
+  {
+      "model": "Bangazonapi.categories",
+      "pk": 1,
+      "fields": {
+          "name": "Books"
+      }
+  }
+]
