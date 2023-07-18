@@ -1,6 +1,6 @@
 [
   {
-      "model": "Bangazonapi.products",
+      "model": "Bangazonapi.product",
       "pk": 1,
       "fields": {
           "seller_id": 1,

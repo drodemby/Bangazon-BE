@@ -1,6 +1,6 @@
 [
   {
-      "model": "Bangazonapi.categories",
+      "model": "Bangazonapi.category",
       "pk": 1,
       "fields": {
           "name": "Books"
