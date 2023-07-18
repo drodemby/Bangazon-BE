@@ -1,0 +1,15 @@
+[
+  {
+      "model": "Bangazonapi.product",
+      "pk": 1,
+      "fields": {
+          "seller_id": 1,
+          "name": "The Way",
+          "image": "",
+          "description": "A book about finding your place in life",
+          "category_id": 1,
+          "price": "12",
+          "isAvailble": 1
+      }
+  }
+]
