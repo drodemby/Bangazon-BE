@@ -10,5 +10,5 @@ class Product(models.Model):
     description = models.CharField(max_length=50)
     category_id = models.ForeignKey(Category, on_delete=models.CASCADE)
     price = models.IntegerField()
-    isAvailble = models.BooleanField()
+    isAvailable = models.BooleanField()
     
