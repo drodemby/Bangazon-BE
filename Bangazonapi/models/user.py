@@ -1,8 +1,10 @@
 from django.db import models
 
-class Seller(models.Model):
+class User(models.Model):
     """Model that represents a rare user"""
     first_name = models.CharField(max_length=50)
     last_name = models.CharField(max_length=50)
+    address = models.CharField(max_length=250)
+    uid = models.CharField(max_length=50)
    
     

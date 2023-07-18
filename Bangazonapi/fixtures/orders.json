@@ -4,7 +4,6 @@
       "pk": 1,
       "fields": {
           "customer_id": 1,
-          "seller_id": 1,
           "status": 0
       }
   }

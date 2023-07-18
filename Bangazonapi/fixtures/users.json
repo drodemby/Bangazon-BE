@@ -1,11 +1,12 @@
 [
   {
-      "model": "Bangazonapi.customers",
+      "model": "Bangazonapi.users",
       "pk": 1,
       "fields": {
           "first_name": "Morgan",
           "last_name": "Taylor",
-          "address": "320 Oak Hill Drive"
+          "address": "320 Oak Hill Drive",
+          "uid": 1
       }
   }
 ]
