@@ -18,20 +18,20 @@ from django.urls import path
 from django.conf.urls import include
 from rest_framework import routers
 
-# from Bangazonapi.views import register_user, check_user
-# CategoryView, ProductView, OrderItemView, UserView, OrderView
+from Bangazonapi.views import register_user, check_user, CategoryView, ProductView, OrderItemView, UserView, OrderView
 
 router = routers.DefaultRouter(trailing_slash=False)
-# router.register(r'products', ProductView, 'product')
-# router.register(r'order_items', OrderItemView, 'post')
-# router.register(r'categories', CategoryView, 'category')
-# router.register(r'users', UserView, 'user')
-# path('register', register_user),
-# path('checkuser', check_user),
-# router.register(r'orders', OrderView, 'order')
+router.register(r'products', ProductView, 'product')
+router.register(r'order_items', OrderItemView, 'post')
+router.register(r'categories', CategoryView, 'category')
+router.register(r'users', UserView, 'user')
+path('register', register_user),
+path('checkuser', check_user),
+router.register(r'orders', OrderView, 'order')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include(router.urls)),
-    
+    path('register', register_user),
+    path('checkuser', check_user),
 ]

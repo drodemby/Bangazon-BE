@@ -5,6 +5,7 @@ class User(models.Model):
     first_name = models.CharField(max_length=50)
     last_name = models.CharField(max_length=50)
     address = models.CharField(max_length=250)
+    email = models.CharField(max_length=50)
     uid = models.CharField(max_length=50)
    
     
